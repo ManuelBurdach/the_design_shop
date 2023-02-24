@@ -7,7 +7,7 @@ const Main = () => {
     <main>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="./a" element={"A"} />
+        <Route path="/a" element={"A"} />
       </Routes>
     </main>
   );
