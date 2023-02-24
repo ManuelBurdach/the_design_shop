@@ -13,7 +13,8 @@ nav {
 }
 
 .active {
-  color: red;
+  color: var(--nav-link-activ);
+  transition: color 0.5s linear;
 }
 
 nav h1 a {

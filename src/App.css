@@ -5,6 +5,7 @@
 }
 
 :root {
+  --nav-link-activ: rgb(255, 204, 0);
   --white: #fff;
   --grey: #848484;
   --darkgrey: #323a45;
