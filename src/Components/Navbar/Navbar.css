@@ -1,0 +1,51 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--white);
+  align-items: baseline;
+  color: var(--darkgrey);
+  white-space: nowrap;
+}
+
+.active {
+  color: red;
+}
+
+nav h1 a {
+  text-decoration: none;
+  color: var(--darkgrey);
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+}
+
+nav div:last-child {
+  display: none;
+}
+
+nav div a {
+  text-decoration: none;
+  color: var(--darkgrey);
+  margin: 0 10px;
+}
+
+nav div p {
+  margin: 0 10px;
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 800px) {
+  nav div:first-of-type {
+    display: none;
+  }
+  nav div:last-child {
+    display: block;
+  }
+}
