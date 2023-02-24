@@ -8,7 +8,6 @@ nav {
   justify-content: space-between;
   background-color: var(--white);
   align-items: baseline;
-  color: var(--darkgrey);
   white-space: nowrap;
 }
 
@@ -20,6 +19,19 @@ nav {
 nav h1 a {
   text-decoration: none;
   color: var(--darkgrey);
+}
+
+nav h1 a:hover {
+  animation: h1ani 100ms linear;
+}
+
+@keyframes h1ani {
+  0%,
+  100% {
+  }
+  50% {
+    margin-left: 10px;
+  }
 }
 
 nav div {
@@ -35,6 +47,10 @@ nav div a {
   text-decoration: none;
   color: var(--darkgrey);
   margin: 0 10px;
+}
+
+nav div a:hover {
+  color: var(--nav-link-hover);
 }
 
 nav div p {

@@ -1,11 +1,25 @@
+@font-face {
+  font-family: "Karlali";
+  src: url("./Assets/fonts/Karla-VariableFont_wght.ttf") format("woff2-variations");
+  font-weight: 125 950;
+  font-stretch: 75% 125%;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Karlali";
+  color: var(--darkgrey);
+}
+
 :root {
   --nav-link-activ: rgb(255, 204, 0);
+  --nav-link-hover: rgb(53, 216, 100);
   --white: #fff;
   --grey: #848484;
   --darkgrey: #323a45;
