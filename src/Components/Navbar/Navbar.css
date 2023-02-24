@@ -58,7 +58,7 @@ nav div p {
   font-size: 15px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 812px) {
   nav div:first-of-type {
     display: none;
   }
