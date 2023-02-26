@@ -4,14 +4,7 @@ import "./Navbar.css";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState("false");
-  const menu = () => {
-    setToggle(!toggle);
-    if (toggle) {
-      console.log("true");
-    } else {
-      console.log("false");
-    }
-  };
+
   return (
     <nav className={toggle ? "" : "navActive"}>
       <h1>
@@ -26,7 +19,7 @@ const Navbar = () => {
         <NavLink to="/shop5">Weekly Picks</NavLink>
         <NavLink to="/shop6">The Design Blog</NavLink>
       </div>
-      <div onClick={menu}>
+      <div onClick={() => setToggle(!toggle)}>
         <div></div>
         <div></div>
         <div></div>
