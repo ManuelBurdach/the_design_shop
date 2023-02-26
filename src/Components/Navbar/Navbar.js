@@ -13,11 +13,11 @@ const Navbar = () => {
     }
   };
   return (
-    <nav className={toggle ? "" : "menuActiv"}>
+    <nav className={toggle ? "" : "navActive"}>
       <h1>
         <Link to="/">The Design Shop</Link>
       </h1>
-      <div>
+      <div className={toggle ? "" : "menuActive"}>
         <NavLink to="/shop1">Featured</NavLink>
         <NavLink to="/shop2">Lifestyle</NavLink>
         <NavLink to="/shop3">Books</NavLink>
