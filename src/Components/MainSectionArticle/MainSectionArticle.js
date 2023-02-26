@@ -19,6 +19,7 @@ const MainSectionArticle = () => {
             company={item.company}
             price={item.price}
             src={item.src}
+            href={item.href}
           />
         );
       })}
