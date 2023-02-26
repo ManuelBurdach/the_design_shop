@@ -25,6 +25,10 @@ body {
   --darkgrey: #323a45;
 }
 
+a {
+  text-decoration: none;
+}
+
 main {
   padding: 20px;
   margin-top: 85px;

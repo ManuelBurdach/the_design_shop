@@ -1,7 +1,26 @@
+.big {
+  width: 100%;
+}
+
+.mid {
+  margin: 10px 2%;
+}
+
 article {
-  width: 200px;
+  width: 32%;
+  margin: 10px 0;
+}
+article:hover {
+  box-shadow: 0px 0px 10px -6px black;
+  transition: all 200ms linear;
+}
+
+article:hover img {
+  opacity: 1;
+  transition: all 200ms linear;
 }
 
 article img {
   width: 100%;
+  opacity: 0.5;
 }

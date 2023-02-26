@@ -3,7 +3,7 @@ import "./Article.css";
 
 const Article = (props) => {
   return (
-    <article>
+    <article className={props.class}>
       <img src={props.src} alt={props.name} />
       <h4>{props.name}</h4>
       <h3>{props.company}</h3>
