@@ -1,23 +1,35 @@
+import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
+  const [toggle, setToggle] = useState("false");
+  const menu = () => {
+    setToggle(!toggle);
+    if (toggle) {
+      console.log("true");
+    } else {
+      console.log("false");
+    }
+  };
   return (
-    <nav>
+    <nav className={toggle ? "" : "menuActiv"}>
       <h1>
         <Link to="/">The Design Shop</Link>
       </h1>
       <div>
-        <NavLink to="/f">Featured</NavLink>
-        <NavLink to="/a">Lifestyle</NavLink>
-        <NavLink to="/b">Books</NavLink>
-        <NavLink to="/c">Digital</NavLink>
+        <NavLink to="/shop1">Featured</NavLink>
+        <NavLink to="/shop2">Lifestyle</NavLink>
+        <NavLink to="/shop3">Books</NavLink>
+        <NavLink to="/shop4">Digital</NavLink>
         <p>|</p>
-        <NavLink to="/d">Weekly Picks</NavLink>
-        <NavLink to="/e">The Design Blog</NavLink>
+        <NavLink to="/shop5">Weekly Picks</NavLink>
+        <NavLink to="/shop6">The Design Blog</NavLink>
       </div>
-      <div>
-        <p>BurgerMenu</p>
+      <div onClick={menu}>
+        <div></div>
+        <div></div>
+        <div></div>
       </div>
     </nav>
   );

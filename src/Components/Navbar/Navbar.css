@@ -18,6 +18,10 @@ nav {
   transition: color 0.5s linear;
 }
 
+.menuActiv {
+  bottom: 0;
+}
+
 nav h1 a {
   color: var(--darkgrey);
 }
@@ -59,10 +63,17 @@ nav div p {
 }
 
 @media only screen and (max-width: 812px) {
-  nav div:first-of-type {
+  nav > div:first-of-type {
     display: none;
   }
   nav div:last-child {
+    cursor: pointer;
     display: block;
+  }
+  nav div:last-child div {
+    width: 20px;
+    height: 2px;
+    margin: 4px 0;
+    background-color: black;
   }
 }

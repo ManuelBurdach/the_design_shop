@@ -11,8 +11,8 @@ const Article = (props) => {
     >
       <img src={props.src} alt={props.name} />
       <h4>{props.name}</h4>
-      <h3>{props.company}</h3>
       <p>{props.price}</p>
+      <h3>{props.company}</h3>
     </article>
   );
 };

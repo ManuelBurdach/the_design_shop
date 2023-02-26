@@ -35,10 +35,14 @@ article p {
   font-size: 14px;
 }
 
-article h3 {
+article p {
   text-align: right;
   vertical-align: top;
   word-break: break-all;
+}
+
+article h3 {
+  color: var(--grey);
 }
 
 @media only screen and (max-width: 812px) {
@@ -48,7 +52,7 @@ article h3 {
   }
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 376px) {
   .small {
     width: 100%;
   }

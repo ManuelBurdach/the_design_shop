@@ -1,3 +1,38 @@
 footer {
   padding: 20px;
 }
+
+footer section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+
+footer section div {
+  width: 22%;
+  min-width: 200px;
+}
+
+footer h2 {
+  margin: 15px 0;
+}
+
+footer section div {
+  margin-right: 20px;
+}
+
+footer a {
+  display: block;
+  margin: 5px 0;
+}
+
+footer p {
+  margin: 5px 0;
+  line-height: 21px;
+}
+
+footer > p {
+  color: var(--grey);
+  margin-top: 50px;
+}
