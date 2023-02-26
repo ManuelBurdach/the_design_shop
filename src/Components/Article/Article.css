@@ -40,3 +40,10 @@ article h3 {
   vertical-align: top;
   word-break: break-all;
 }
+
+@media only screen and (max-width: 812px) {
+  .small {
+    width: 49%;
+    margin: 0 0.5%;
+  }
+}
