@@ -82,6 +82,16 @@ nav div p {
   font-size: 15px;
 }
 
+.rotate45 {
+  transform: rotate(45deg);
+  margin: -10px 0 8px !important;
+}
+
+.rotateM45 {
+  transform: rotate(-45deg);
+  margin: -10px 0 8px !important;
+}
+
 @media only screen and (max-width: 812px) {
   nav > div:first-of-type {
     display: none;

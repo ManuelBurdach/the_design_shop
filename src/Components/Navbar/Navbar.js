@@ -27,9 +27,9 @@ const Navbar = () => {
       </div>
       {/* Burgermenu default false */}
       <div onClick={() => setToggle(!toggle)}>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div className={toggle ? "" : "rotate45"}></div>
+        <div className={toggle ? "" : "rotate45"}></div>
+        <div className={toggle ? "" : "rotateM45"}></div>
       </div>
     </nav>
   );
