@@ -23,7 +23,7 @@ nav {
 
 /* Burgermenu (menu open = true) */
 .navActive {
-  bottom: 0;
+  bottom: auto;
 }
 
 /* Burgermenu (menu open = true) */
@@ -82,22 +82,14 @@ nav div p {
   font-size: 15px;
 }
 
-.rotate45 {
-  transform: rotate(45deg);
-  margin: -10px 0 8px !important;
-}
-
-.rotateM45 {
-  transform: rotate(-45deg);
-  margin: -10px 0 8px !important;
-}
-
 @media only screen and (max-width: 812px) {
   nav > div:first-of-type {
     display: none;
   }
   nav div:last-child {
     cursor: pointer;
+    height: 21px;
+    width: 20px;
     display: block;
   }
   nav div:last-child div {
@@ -105,5 +97,37 @@ nav div p {
     height: 2px;
     margin: 4px 0;
     background-color: black;
+  }
+
+  .rotate45 {
+    transform: rotate(45deg) translate(8px, 8px);
+    margin: -2px 0 0 0 !important;
+  }
+
+  .rotateM45 {
+    transform: rotate(-45deg) translate(-4px, 4px);
+  }
+}
+
+@media only screen and (min-width: 813px) {
+  /* Burgermenu (menu open = true) */
+  .navActive {
+    bottom: unset;
+  }
+
+  /* Burgermenu (menu open = true) */
+  .menuActive {
+    display: unset;
+    flex-direction: unset;
+    align-items: unset;
+    width: unset;
+    order: unset;
+    font-size: unset;
+    margin-top: unset;
+  }
+
+  /* Burgermenu (menu open = true) */
+  .menuActive a {
+    margin: 0 10px;
   }
 }
