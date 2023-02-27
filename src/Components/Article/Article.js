@@ -8,9 +8,6 @@ const Article = (props) => {
       onClick={() => {
         window.open(props.href, "_blank");
       }}
-      onTouchStart={(event) => {
-        console.log(event.target);
-      }}
     >
       <img src={props.src} alt={props.name} />
       <h4>{props.name}</h4>
