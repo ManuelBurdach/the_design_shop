@@ -12,6 +12,7 @@ const MainSectionArticle = () => {
     <section>
       {data.map((item, i) => {
         return (
+          //Render all Items from data.js
           <Article
             key={`Article${i}`}
             class={item.className}

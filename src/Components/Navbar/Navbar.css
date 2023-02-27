@@ -15,15 +15,18 @@ nav {
   z-index: 100;
 }
 
+/* NavLink active */
 .active {
   color: var(--nav-link-activ);
   transition: color 0.5s linear;
 }
 
+/* Burgermenu (menu open = true) */
 .navActive {
   bottom: 0;
 }
 
+/* Burgermenu (menu open = true) */
 .menuActive {
   display: flex !important;
   flex-direction: column;
@@ -34,6 +37,7 @@ nav {
   margin-top: 10px;
 }
 
+/* Burgermenu (menu open = true) */
 .menuActive a {
   margin: 10px 0;
 }

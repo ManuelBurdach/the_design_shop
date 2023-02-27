@@ -12,14 +12,11 @@ footer section {
 footer section div {
   width: 22%;
   min-width: 200px;
+  margin-right: 20px;
 }
 
 footer h2 {
   margin: 15px 0;
-}
-
-footer section div {
-  margin-right: 20px;
 }
 
 footer a {

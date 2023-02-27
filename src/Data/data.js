@@ -1,3 +1,4 @@
+//Image import
 import fjallraven from "../Assets/images/1.png";
 import tomons from "../Assets/images/d2.png";
 import uconAcrobatics from "../Assets/images/u6.png";
@@ -9,7 +10,6 @@ import sophieLovell from "../Assets/images/d7.png";
 import nathanWilliams from "../Assets/images/c6.png";
 import ugmonk from "../Assets/images/h13.png";
 import corkcicle from "../Assets/images/h8.png";
-
 import hermanMiller from "../Assets/images/h2.png";
 import fieldNotes from "../Assets/images/d5.png";
 import counterPrint from "../Assets/images/c5.png";
@@ -32,6 +32,7 @@ import normannCopenhagen from "../Assets/images/home-8.png";
 import kardiel from "../Assets/images/home-10.png";
 import soma from "../Assets/images/home-9.png";
 
+//Array of Objects (Data)
 const data = [
   {
     name: "Kanken Art Laptop 15' Special Edition Backpack",

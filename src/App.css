@@ -1,3 +1,4 @@
+/* ----- FONTS ----- */
 @font-face {
   font-family: "Karlali";
   src: url("./Assets/fonts/Karla-VariableFont_wght.ttf") format("woff2-variations");
@@ -6,6 +7,16 @@
   font-style: normal;
 }
 
+/* ----- VARIABLES ----- */
+:root {
+  --nav-link-activ: rgb(255, 204, 0);
+  --nav-link-hover: rgb(53, 216, 100);
+  --white: #fff;
+  --grey: #848484;
+  --darkgrey: #323a45;
+}
+
+/* ----- GENERAL STYLE ----- */
 * {
   margin: 0;
   padding: 0;
@@ -17,20 +28,7 @@ body {
   color: var(--darkgrey);
 }
 
-:root {
-  --nav-link-activ: rgb(255, 204, 0);
-  --nav-link-hover: rgb(53, 216, 100);
-  --white: #fff;
-  --grey: #848484;
-  --darkgrey: #323a45;
-}
-
 a {
   text-decoration: none;
   color: var(--grey);
-}
-
-main {
-  padding: 20px;
-  margin-top: 85px;
 }

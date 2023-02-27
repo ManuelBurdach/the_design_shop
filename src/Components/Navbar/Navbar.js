@@ -1,24 +1,31 @@
+//Modul import
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
+
+//Css import
 import "./Navbar.css";
 
 const Navbar = () => {
+  //Burgermenu toggle (default false)
   const [toggle, setToggle] = useState("false");
 
   return (
     <nav className={toggle ? "" : "navActive"}>
+      {/* Logo (headline - companyname) */}
       <h1>
         <Link to="/">The Design Shop</Link>
       </h1>
+      {/* Navigation */}
       <div className={toggle ? "" : "menuActive"}>
-        <NavLink to="/shop1">Featured</NavLink>
-        <NavLink to="/shop2">Lifestyle</NavLink>
-        <NavLink to="/shop3">Books</NavLink>
-        <NavLink to="/shop4">Digital</NavLink>
+        <NavLink to="/featured">Featured</NavLink>
+        <NavLink to="/lifestyle">Lifestyle</NavLink>
+        <NavLink to="/books">Books</NavLink>
+        <NavLink to="/digital">Digital</NavLink>
         <p>|</p>
-        <NavLink to="/shop5">Weekly Picks</NavLink>
-        <NavLink to="/shop6">The Design Blog</NavLink>
+        <NavLink to="/weeklypicks">Weekly Picks</NavLink>
+        <NavLink to="/thedesignblog">The Design Blog</NavLink>
       </div>
+      {/* Burgermenu default false */}
       <div onClick={() => setToggle(!toggle)}>
         <div></div>
         <div></div>

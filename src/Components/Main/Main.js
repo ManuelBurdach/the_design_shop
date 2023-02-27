@@ -9,14 +9,15 @@ import MainSectionArticle from "../MainSectionArticle/MainSectionArticle";
 const Main = () => {
   return (
     <main>
+      {/* Routing */}
       <Routes>
         <Route path="/" element={<MainSectionArticle />} />
-        <Route path="/shop1" element={<MainSectionArticle />} />
-        <Route path="/shop2" element={<MainSectionArticle />} />
-        <Route path="/shop3" element={<MainSectionArticle />} />
-        <Route path="/shop4" element={<MainSectionArticle />} />
-        <Route path="/shop5" element={<MainSectionArticle />} />
-        <Route path="/shop6" element={<MainSectionArticle />} />
+        <Route path="/featured" element={<MainSectionArticle />} />
+        <Route path="/lifestyle" element={<MainSectionArticle />} />
+        <Route path="/books" element={<MainSectionArticle />} />
+        <Route path="/digital" element={<MainSectionArticle />} />
+        <Route path="/weeklypicks" element={<MainSectionArticle />} />
+        <Route path="/thedesignblog" element={<MainSectionArticle />} />
       </Routes>
     </main>
   );

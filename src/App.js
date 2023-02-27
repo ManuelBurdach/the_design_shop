@@ -1,15 +1,23 @@
-import { BrowserRouter } from "react-router-dom";
+//CSS Import
 import "./App.css";
-import Footer from "./Components/Footer/Footer";
-import Main from "./Components/Main/Main";
+
+//Modul import
+import { BrowserRouter } from "react-router-dom";
+
+//Components import
 import Navbar from "./Components/Navbar/Navbar";
+import Main from "./Components/Main/Main";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
+        {/* //Navigation */}
         <Navbar />
+        {/* //Routing im Main */}
         <Main />
+        {/* //Footer */}
         <Footer />
       </BrowserRouter>
     </div>
