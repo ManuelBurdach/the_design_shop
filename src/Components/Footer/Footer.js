@@ -9,7 +9,7 @@ const Footer = () => {
           <h2>The Design Shop</h2>
           <p>
             Carefully curated online design store,
-            <br /> founded and dsigned by <strong>Ruby Bacanovic.</strong>
+            <br /> founded and designed by <strong>Ruby Bacanovic.</strong>
           </p>
         </div>
         <div>
