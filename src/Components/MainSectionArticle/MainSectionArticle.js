@@ -13,7 +13,7 @@ import { useParams } from "react-router-dom";
 const MainSectionArticle = () => {
   const params = useParams();
   return (
-    <section>
+    <section id="shop">
       {data.map((item, i) => {
         return (
           //Render all Items from data.js

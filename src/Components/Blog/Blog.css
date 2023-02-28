@@ -1,0 +1,31 @@
+#blog div {
+  text-align: center;
+  padding: 5px;
+  width: 20%;
+  background-color: aqua;
+  box-shadow: 0px 0px 10px -6px black;
+  border-radius: 15px;
+  margin: 20px;
+}
+
+#blog article {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  box-shadow: 0px 0px 10px -6px black;
+  border-radius: 15px;
+  opacity: 0.8;
+}
+
+#blog article:hover {
+  opacity: 1;
+}
+
+#blog article h2 {
+  padding-bottom: 10px;
+}
+
+#blog article h2 span {
+  color: var(--grey);
+  font-size: 12px;
+}
