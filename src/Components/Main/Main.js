@@ -12,10 +12,7 @@ const Main = () => {
       {/* Routing */}
       <Routes>
         <Route path="/" element={<MainSectionArticle />} />
-        <Route path="/featured" element={<MainSectionArticle />} />
-        <Route path="/lifestyle" element={<MainSectionArticle />} />
-        <Route path="/books" element={<MainSectionArticle />} />
-        <Route path="/digital" element={<MainSectionArticle />} />
+        <Route path="/shop/:category" element={<MainSectionArticle />} />
         <Route path="/weeklypicks" element={<MainSectionArticle />} />
         <Route path="/thedesignblog" element={<MainSectionArticle />} />
       </Routes>

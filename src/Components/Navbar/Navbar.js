@@ -17,10 +17,10 @@ const Navbar = () => {
       </h1>
       {/* Navigation */}
       <div className={toggle ? "" : "menuActive"}>
-        <NavLink to="/featured">Featured</NavLink>
-        <NavLink to="/lifestyle">Lifestyle</NavLink>
-        <NavLink to="/books">Books</NavLink>
-        <NavLink to="/digital">Digital</NavLink>
+        <NavLink to="/shop/electronic">Electronic</NavLink>
+        <NavLink to="/shop/lifestyle">Lifestyle</NavLink>
+        <NavLink to="/shop/books">Books</NavLink>
+        <NavLink to="/shop/home">Home</NavLink>
         <p>|</p>
         <NavLink to="/weeklypicks">Weekly Picks</NavLink>
         <NavLink to="/thedesignblog">The Design Blog</NavLink>

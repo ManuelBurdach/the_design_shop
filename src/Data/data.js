@@ -41,6 +41,7 @@ const data = [
     src: fjallraven,
     className: "big",
     href: "https://amzn.to/32MmHgL",
+    category: "lifestyle",
   },
   {
     name: "Swing Arm Wood Desk Lamp",
@@ -49,6 +50,7 @@ const data = [
     src: tomons,
     className: "small",
     href: "https://amzn.to/2WX7vtD",
+    category: "home",
   },
   {
     name: "Hajo Backpack",
@@ -57,6 +59,7 @@ const data = [
     src: uconAcrobatics,
     className: "mid small",
     href: "https://amzn.to/2I3WvXM",
+    category: "lifestyle",
   },
   {
     name: "Zed Bamboo Longboard",
@@ -65,6 +68,7 @@ const data = [
     src: retrospec,
     className: "small",
     href: "https://amzn.to/2YX3043",
+    category: "lifestyle",
   },
   {
     name: "Electric Pour-Over Kettle",
@@ -73,6 +77,7 @@ const data = [
     src: fellow,
     className: "small",
     href: "https://amzn.to/2KfP3ee",
+    category: "home",
   },
   {
     name: "Woodie Vintage Car",
@@ -81,6 +86,7 @@ const data = [
     src: candylabToys,
     className: "mid small",
     href: "https://amzn.to/2FYB3zT",
+    category: "lifestyle",
   },
   {
     name: "Logo Modernism",
@@ -89,6 +95,7 @@ const data = [
     src: taschen,
     className: "small",
     href: "https://www.bookdepository.com/Logo-Modernism-Jens-Muller-R-Roger-Remington/9783836545303/?a_aid=1991",
+    category: "books",
   },
   {
     name: "Dieter Rams: As Little Design as Possible",
@@ -97,6 +104,7 @@ const data = [
     src: sophieLovell,
     className: "big",
     href: "https://amzn.to/2YQLnCV",
+    category: "books",
   },
   {
     name: "The Eye",
@@ -105,6 +113,7 @@ const data = [
     src: nathanWilliams,
     className: "small",
     href: "https://amzn.to/2I3lbQ7",
+    category: "books",
   },
   {
     name: "Gather Desk Organizer",
@@ -113,6 +122,7 @@ const data = [
     src: ugmonk,
     className: "mid small",
     href: "https://amzn.to/2IifSvA",
+    category: "home",
   },
   {
     name: "Dipped Canteen",
@@ -121,6 +131,7 @@ const data = [
     src: corkcicle,
     className: "small",
     href: "https://amzn.to/2G84CiT",
+    category: "lifestyle",
   },
   {
     name: "Sayl Office Chair White",
@@ -129,6 +140,7 @@ const data = [
     src: hermanMiller,
     className: "small",
     href: "https://amzn.to/2YWPz3N",
+    category: "home",
   },
   {
     name: "Three Cherry Wood Notebook",
@@ -137,6 +149,7 @@ const data = [
     src: fieldNotes,
     className: "mid small",
     href: "https://amzn.to/2KhwTsz",
+    category: "books",
   },
   {
     name: "From Japan",
@@ -145,6 +158,7 @@ const data = [
     src: counterPrint,
     className: "small",
     href: "https://www.bookdepository.com/From-Japan/9780957081659?a_aid=1991",
+    category: "books",
   },
   {
     name: "Arigato Desk Lamp",
@@ -153,6 +167,7 @@ const data = [
     src: grupa,
     className: "big",
     href: "http://www.grupaproducts.com/arigato/",
+    category: "home",
   },
   {
     name: "Winston Regal Watch",
@@ -161,6 +176,7 @@ const data = [
     src: komono,
     className: "small",
     href: "https://amzn.to/2CZiPxO",
+    category: "lifestyle",
   },
   {
     name: "Letter H Poster",
@@ -169,6 +185,7 @@ const data = [
     src: heyStudio,
     className: "mid small",
     href: "https://heyshop.es/collections/home/products/h-hey",
+    category: "home",
   },
   {
     name: "Coffee Can",
@@ -177,6 +194,7 @@ const data = [
     src: blueBottleCompany,
     className: "small",
     href: "https://amzn.to/2UGLHEQ",
+    category: "lifestyle",
   },
   {
     name: "Beoplay H4",
@@ -185,6 +203,7 @@ const data = [
     src: bangOlufsen,
     className: "small",
     href: "https://amzn.to/2UFjEWp",
+    category: "electronic",
   },
   {
     name: "Make It Now",
@@ -193,6 +212,7 @@ const data = [
     src: anthonyBurrill,
     className: "mid small",
     href: "https://amzn.to/2OTHEQg",
+    category: "books",
   },
   {
     name: "Black Side Chair",
@@ -201,6 +221,7 @@ const data = [
     src: eamesStyle,
     className: "small",
     href: "https://amzn.to/2UFHfGt",
+    category: "home",
   },
   {
     name: "Min: The New Simplicity in Graphic Design",
@@ -209,6 +230,7 @@ const data = [
     src: thamesHudson,
     className: "big",
     href: "https://amzn.to/2Ij1IKA",
+    category: "books",
   },
   {
     name: "Grid systems in graphic design",
@@ -217,6 +239,7 @@ const data = [
     src: josefMüllerBrockmann,
     className: "small",
     href: "https://amzn.to/2UxtLww",
+    category: "books",
   },
   {
     name: "Card Wallet",
@@ -225,6 +248,7 @@ const data = [
     src: herschel,
     className: "mid small",
     href: "https://amzn.to/2I5vxiq",
+    category: "lifestyle",
   },
   {
     name: "Classic Advice Print Black",
@@ -233,6 +257,7 @@ const data = [
     src: goodFuckingDesignAdvice,
     className: "small",
     href: "https://goodfuckingdesignadvice.com/products/classic-advice-print",
+    category: "books",
   },
   {
     name: "Magic Mouse 2",
@@ -241,6 +266,7 @@ const data = [
     src: apple,
     className: "small",
     href: "https://amzn.to/2D3yZWX",
+    category: "electronic",
   },
   {
     name: "Travel Tumbler",
@@ -249,6 +275,7 @@ const data = [
     src: kinto,
     className: "mid small",
     href: "https://amzn.to/2WTbsPL",
+    category: "lifestyle",
   },
   {
     name: "Magic Keyboard",
@@ -257,6 +284,7 @@ const data = [
     src: apple1,
     className: "small",
     href: "https://amzn.to/2GbCf4A",
+    category: "electronic",
   },
   {
     name: "Bottle Grinder",
@@ -265,6 +293,7 @@ const data = [
     src: menu,
     className: "big",
     href: "https://amzn.to/2WMJbdy",
+    category: "lifestyle",
   },
   {
     name: "Geo Thermos",
@@ -273,6 +302,7 @@ const data = [
     src: normannCopenhagen,
     className: "small",
     href: "https://amzn.to/2JLtxvk",
+    category: "home",
   },
   {
     name: "Womb Chair & Ottoman",
@@ -281,6 +311,7 @@ const data = [
     src: kardiel,
     className: "mid small",
     href: "https://amzn.to/2YdSBPy",
+    category: "home",
   },
   {
     name: "Water Filter Glass Carafe",
@@ -289,6 +320,7 @@ const data = [
     src: soma,
     className: "small",
     href: "https://amzn.to/2LCEfGP",
+    category: "home",
   },
 ];
 
