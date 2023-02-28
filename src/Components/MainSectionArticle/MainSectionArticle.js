@@ -17,7 +17,9 @@ const MainSectionArticle = () => {
       {data.map((item, i) => {
         return (
           //Render all Items from data.js
-          item.category === params.category || params.category === undefined ? (
+          item.category === params.category ||
+            params.category === undefined ||
+            (params.category === "weeklypicks" && item.className === "big") ? (
             <Article
               key={`Article${i}`}
               class={item.className}

@@ -22,7 +22,7 @@ const Navbar = () => {
         <NavLink to="/shop/books">Books</NavLink>
         <NavLink to="/shop/home">Home</NavLink>
         <p>|</p>
-        <NavLink to="/weeklypicks">Weekly Picks</NavLink>
+        <NavLink to="/shop/weeklypicks">Weekly Picks</NavLink>
         <NavLink to="/thedesignblog">The Design Blog</NavLink>
       </div>
       {/* Burgermenu default false */}

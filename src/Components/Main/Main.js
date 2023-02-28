@@ -13,8 +13,7 @@ const Main = () => {
       <Routes>
         <Route path="/" element={<MainSectionArticle />} />
         <Route path="/shop/:category" element={<MainSectionArticle />} />
-        <Route path="/weeklypicks" element={<MainSectionArticle />} />
-        <Route path="/thedesignblog" element={<MainSectionArticle />} />
+        <Route path="/thedesignblog" element={<h2>The Design Blog</h2>} />
       </Routes>
     </main>
   );
