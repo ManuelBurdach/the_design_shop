@@ -43,3 +43,9 @@
   color: var(--grey);
   font-size: 12px;
 }
+
+@media only screen and (max-width: 576px) {
+  #blog article div {
+    flex-direction: column;
+  }
+}
