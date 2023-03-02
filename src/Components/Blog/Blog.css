@@ -10,6 +10,7 @@
 
 #blog img {
   width: 200px;
+  max-height: 280px;
 }
 
 #blog article {
