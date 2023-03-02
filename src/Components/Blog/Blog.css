@@ -48,4 +48,10 @@
   #blog article div {
     flex-direction: column;
   }
+  #blog img {
+    width: 100%;
+  }
+  #blog article p {
+    padding: 10px 0 0 0;
+  }
 }
