@@ -2,9 +2,9 @@
   width: 100%;
 }
 
-#shop .mid {
+/* #shop .mid {
   margin: 10px 2%;
-}
+} */
 
 #shop article {
   width: 32%;
@@ -24,7 +24,7 @@
 
 #shop article img {
   width: 100%;
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 #shop article h4,

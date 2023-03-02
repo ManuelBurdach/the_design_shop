@@ -12,6 +12,7 @@ import { useParams } from "react-router-dom";
 
 const MainSectionArticle = () => {
   const params = useParams();
+
   return (
     <section id="shop">
       {data.map((item, i) => {
