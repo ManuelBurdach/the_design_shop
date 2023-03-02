@@ -22,24 +22,11 @@ const Blog = () => {
         <div>
           <img src={tomons} alt="Tomons" />
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, animi, atque, soluta
-            illo voluptas odit fugiat neque dolor tempore quas non cupiditate. Perferendis neque
-            vero harum amet quis. Aliquam beatae tempora eveniet sit aliquid cupiditate repellendus
-            quisquam totam facere alias, similique dignissimos? Laboriosam numquam voluptas
-            explicabo, amet animi eaque dicta ab non ex voluptatum. A accusantium autem facere
-            consectetur deleniti! Eum amet fugit magnam tempora nisi soluta fuga dolorem dicta
-            accusamus incidunt nobis dignissimos quis, placeat iure quas nam corporis adipisci
-            molestias deserunt itaque ut blanditiis enim provident? Distinctio minima nostrum
-            reiciendis perferendis officia, blanditiis animi, et aliquam veniam ut eaque
-            voluptatibus facilis sint magni veritatis, alias corporis? Similique explicabo, veniam
-            tempore quae, assumenda esse rerum, odit quod a sapiente eum dolorum. Quia accusamus,
-            nulla numquam ullam totam provident illo adipisci fugit assumenda a eos nostrum suscipit
-            maxime, architecto esse cum libero culpa? Facere placeat libero qui dignissimos nostrum
-            voluptates necessitatibus veniam dolores cupiditate dolorum a sequi repellat magnam,
-            reiciendis nesciunt, aliquid quidem! Quod, autem atque omnis, impedit incidunt sit
-            voluptatibus vero quae veritatis assumenda, suscipit sequi similique. Quam, cumque?
-            Culpa doloremque itaque velit rem expedita! Eius repellat aspernatur ex qui maiores
-            nostrum in fuga, doloremque nulla distinctio corporis temporibus.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, dolore? Inventore totam
+            facilis explicabo dolore alias neque aperiam nemo, laboriosam consequatur magnam!
+            Laudantium eligendi optio, quaerat saepe excepturi esse, odit molestiae reprehenderit
+            similique corporis fugiat neque ad sed pariatur, voluptatem eos consequatur doloremque
+            aliquid nesciunt fuga possimus. Quaerat, neque iure!
           </p>
         </div>
       </article>
@@ -51,11 +38,9 @@ const Blog = () => {
         <div>
           <img src={uconAcrobatics} alt="uconAcrobatics" />
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum quibusdam nostrum
-            reiciendis deserunt qui quod, placeat rem veritatis nisi cumque perferendis hic
-            inventore facilis fuga. Error quas suscipit quibusdam ut ad, provident maxime, vitae
-            quaerat praesentium nulla quasi exercitationem. Delectus dolores vero cumque dolorum
-            tempore reiciendis? Mollitia maiores totam aspernatur.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo placeat ex corporis
+            commodi aspernatur eius? Sunt, consequatur veritatis doloribus odio labore eligendi
+            totam, adipisci natus eius aspernatur perferendis sed temporibus.
           </p>
         </div>
       </article>
@@ -81,15 +66,8 @@ const Blog = () => {
         <div>
           <img src={fellow} alt="fellow" />
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum neque rem laboriosam id
-            labore ipsum enim sed vitae, dolor magnam ipsam perspiciatis ea deleniti eos. Ad modi
-            rerum consequatur asperiores quidem tempora quo, quisquam ullam sunt eligendi eaque
-            doloremque, consequuntur expedita ducimus? Officia quod obcaecati quia enim incidunt
-            provident sint, unde doloremque, dignissimos ipsam asperiores nemo ratione. Pariatur
-            consectetur eveniet minus quaerat officiis provident ad distinctio, asperiores cumque
-            incidunt iure soluta dolore modi vero ab voluptatibus error deserunt voluptatem
-            consequuntur a reprehenderit quae aspernatur? Earum pariatur quam, cumque eaque, dicta,
-            nesciunt ducimus quos et officia libero magni excepturi eos similique!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quidem natus harum
+            inventore animi saepe error nobis eveniet possimus ea.
           </p>
         </div>
       </article>
@@ -100,24 +78,10 @@ const Blog = () => {
         <div>
           <img src={candylabToys} alt="candylabToys" />
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam harum pariatur
-            impedit nihil ipsam vel minus esse hic, temporibus ipsum libero. Nam dolores soluta
-            facere distinctio maiores pariatur iusto possimus veritatis exercitationem similique!
-            Error consectetur vel iusto hic natus? Sint, nisi odio. Veniam fugiat quam laboriosam
-            nesciunt consectetur accusamus quisquam aperiam harum obcaecati expedita magnam
-            perferendis odit, error excepturi distinctio velit itaque, iure incidunt similique
-            aliquam facilis dolorum laudantium a. Expedita quo magnam dicta optio dolore eum eveniet
-            recusandae ratione architecto et? Obcaecati quia assumenda quas deserunt fuga nemo
-            magnam labore cupiditate aliquam, amet tempore sit, quisquam nostrum aperiam et quasi
-            blanditiis exercitationem? Unde a asperiores commodi illo, laborum ut porro
-            exercitationem pariatur saepe eligendi dolore velit quasi tempore odio iste quos eius
-            harum eveniet. Dolores, nostrum sapiente? Quos nisi tempore, ea velit nulla libero ipsum
-            perspiciatis asperiores rem qui soluta quia adipisci officiis excepturi quidem debitis
-            neque. Molestias dolore voluptas quod pariatur, inventore doloremque suscipit molestiae
-            excepturi blanditiis numquam vitae distinctio reiciendis aperiam perferendis culpa earum
-            nulla eius consectetur deserunt. Quos quas enim itaque, veritatis quae reprehenderit
-            sequi illum repellendus dolorem vel, exercitationem deserunt optio vitae. Sit, magnam
-            iure sapiente, expedita itaque saepe nulla, quisquam aperiam voluptatum ducimus ab?
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum odio officiis ipsa
+            cumque nobis voluptatum, veniam tempora natus minima. Maxime nisi dignissimos eligendi
+            molestiae itaque repudiandae sapiente fugit vero minima inventore sit aliquam quisquam,
+            incidunt, id, repellendus est ut assumenda!
           </p>
         </div>
       </article>
