@@ -1,6 +1,9 @@
 //CSS import
 import "./Footer.css";
 
+//Modul import
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <footer>
@@ -15,13 +18,13 @@ const Footer = () => {
         <div>
           <h2>Contact</h2>
           <a href="mailto:info@designshop.de">Email us</a>
-          <a href="#workwithus">Work with us</a>
+          <Link to="/workwithus">Work with us</Link>
         </div>
         <div>
           <h2>Newsletter</h2>
-          <a href="#subscribe">
+          <Link to="/subscribe">
             Click here to <strong>subscribe.</strong>
-          </a>
+          </Link>
           <p>Don't worry. We hate spam to.</p>
         </div>
         <div>
